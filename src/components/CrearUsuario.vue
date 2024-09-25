@@ -20,7 +20,7 @@
 
 <script>
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
-import firebaseApp from '../firebaseconfig';
+import firebaseApp from '../firebaseConfig';
 
 export default {
     data() {

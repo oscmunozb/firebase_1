@@ -18,7 +18,7 @@
 
 <script>
 import { getFirestore, collection, onSnapshot, doc, deleteDoc } from 'firebase/firestore';
-import firebaseApp from '../firebaseconfig';
+import firebaseApp from '../firebaseConfig';
 
 export default {
     data() {
